@@ -51,6 +51,9 @@ android {
 
 dependencies {
 
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0" )// Use the latest version
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
